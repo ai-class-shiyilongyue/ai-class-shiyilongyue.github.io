@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>资料下载｜GitHub Pages</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="downloads" data-base="">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-dot"></span>
+      <span id="brandTitle">课程主页</span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="schedule.html">课程安排</a>
+      <a class="nav-link is-active" href="downloads.html">资料下载</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="section-head">
+        <div>
+          <h1>资料下载</h1>
+          <p class="muted">
+            输入密码后显示全部资料。
+          </p>
+        </div>
+        <div class="toolbar">
+          <a class="btn btn-ghost" href="schedule.html">回到课程安排</a>
+        </div>
+      </div>
+
+      <div class="gate">
+        <div class="gate-left">
+          <label class="label" for="pwdInput">访问密码</label>
+          <div class="row">
+            <input id="pwdInput" class="input" type="password" placeholder="请输入密码" autocomplete="off" />
+            <button id="pwdBtn" class="btn" type="button">解锁</button>
+            <button id="pwdReset" class="btn btn-ghost" type="button">清除解锁</button>
+          </div>
+          <div id="pwdMsg" class="muted small"></div>
+        </div>
+        <div class="gate-right card-soft">
+          <div class="mini-title">说明</div>
+          <ul class="mini-list">
+            <li>网盘提取码另行提供。</li>
+            <li>课程标题点击可跳回“课程安排”对应课程栏。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <div>
+          <h2>全部课程资料（解锁后显示）</h2>
+          <p class="muted">课程结束后上传更新。</p>
+        </div>
+        <div class="toolbar">
+          <input id="searchDownload" class="input" placeholder="搜索：周次 / 日期 / 老师 / 标题…" />
+        </div>
+      </div>
+
+      <div id="downloadsLocked" class="locked">
+        <div class="locked-badge">🔒 未解锁</div>
+        <p class="muted">请输入密码后显示资料列表。</p>
+      </div>
+
+      <div id="downloadsList" class="downloads-list is-hidden"></div>
+    </section>
+
+  </main>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

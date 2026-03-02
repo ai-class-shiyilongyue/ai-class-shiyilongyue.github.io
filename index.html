@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>课程主页｜GitHub Pages</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="home" data-base="">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-dot"></span>
+      <span id="brandTitle">课程主页</span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav-link is-active" href="index.html">首页</a>
+      <a class="nav-link" href="schedule.html">课程安排</a>
+      <a class="nav-link" href="downloads.html">资料下载</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section
+      class="hero card hero-banner"
+      style="--mask-a:.1; --mask-b:.8;"
+    >
+      <img class="hero-banner-img" src="assets/img/school.webp" alt="" aria-hidden="true"/>
+    
+      <div class="hero-banner-mask" aria-hidden="true"></div>
+
+      <div class="hero-left">
+        <div class="kicker">Computational Thinking and Artificial Intelligence</div>
+        <h1 id="courseTitle">计算思维与人工智能</h1>
+        <p class="muted" id="courseSubtitle">
+          用于存放每节课程资料。支持日历跳转与统一资料下载入口。
+        </p>
+
+        <div class="chips" id="courseMetaChips"></div>
+
+        <div class="hero-actions">
+          <a class="btn btn-ghost" href="schedule.html">查看课程安排</a>
+          <a class="btn btn-ghost" href="downloads.html">进入资料下载</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="logos">
+          <div class="logo-box">
+            <div class="logo-label">北京十一学校·龙樾实验中学</div>
+            <img class="logo-img" src="assets/img/partner-logo.webp" alt="学校 Logo" />
+
+          </div>
+          <div class="logo-box">
+            <div class="logo-label">中国科学院计算技术研究所</div>
+            <img class="logo-img" src="assets/img/org-logo.webp" alt="机构 Logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="grid-2">
+      <section class="card">
+        <h2>课程整体简介</h2>
+        <p class="muted" id="courseIntro"></p>
+
+        <div class="hr"></div>
+        <h3>课程亮点</h3>
+        <ul class="bullets" id="courseHighlights"></ul>
+      </section>
+
+      <section class="card">
+        <h2>北京十一学校·龙樾实验中学</h2>
+        <p class="muted" id="partnerIntro"></p>
+        <div class="hr"></div>
+        <h2>中国科学院计算技术研究所</h2>
+        <p class="muted" id="orgIntro"></p>
+      </section>
+    </section>
+
+    <section class="card">
+      <h2>本期授课老师</h2>
+      <p class="muted">点击老师卡片可进入对应老师页面。</p>
+      <div class="teacher-grid" id="teacherGrid"></div>
+    </section>
+
+    <footer class="footer">
+      <span class="muted">Beijing National Day School Longyue · Institute of Computing Technology © <span id="yearNow"></span></span>
+    </footer>
+  </main>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>课程安排｜GitHub Pages</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="schedule" data-base="">
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-dot"></span>
+      <span id="brandTitle">课程主页</span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link is-active" href="schedule.html">课程安排</a>
+      <a class="nav-link" href="downloads.html">资料下载</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="section-head">
+        <div>
+          <h1>课程安排</h1>
+          <p class="muted">日历展示 2026/03–2026/07。每周三标注，有课日期可点击进入对应老师页。</p>
+        </div>
+        <div class="hint">
+          <span class="dot dot-course"></span> 有课（可点击）
+          <span class="dot dot-wed"></span> 周三（无课）
+        </div>
+      </div>
+
+      <div id="calendar" class="calendar-wrap"></div>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <div>
+          <h2>15 周课程列表</h2>
+          <p class="muted">以下为课程列表。</p>
+        </div>
+        <div class="toolbar">
+          <input id="searchLesson" class="input" placeholder="搜索：周次 / 日期 / 老师 / 标题…" />
+          <a class="btn btn-ghost" href="downloads.html">去资料下载页</a>
+        </div>
+      </div>
+
+      <div id="lessonList" class="lesson-list"></div>
+    </section>
+
+  </main>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
