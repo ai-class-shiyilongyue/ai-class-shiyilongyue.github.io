@@ -189,6 +189,22 @@
       const highlightWeek = q.week ? String(q.week) : null;
   
       const header = $("#teacherHeader");
+      const researchEl = document.querySelector("#teacherResearch");
+      if (researchEl) {
+        const blocks = (t.research || []);
+        if (!blocks.length) {
+          researchEl.innerHTML = `<div class="muted small">（该老师科研/荣誉信息待补充）</div>`;
+        } else {
+          researchEl.innerHTML = blocks.map(b => `
+            <div class="research-block">
+              <div class="research-title">${escapeHtml(b.heading || "")}</div>
+              <ul class="research-list">
+                ${(b.items || []).map(it => `<li>${escapeHtml(it)}</li>`).join("")}
+              </ul>
+            </div>
+          `).join("");
+        }
+      }
       const wrap = $("#teacherLessons");
       if (!header || !wrap) return;
   

@@ -650,3 +650,44 @@ h3{ font-size: 16px; }
 .hero{
   align-items: center;
 }
+
+
+
+.scroll-panel{
+  height: 400px;                
+  overflow: auto;             
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(15,27,45,.10);
+  background: rgba(47,109,255,.03);
+  scrollbar-gutter: stable;      
+}
+
+.research-block + .research-block{
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(15,27,45,.12);
+}
+.research-title{
+  font-weight: 900;
+  color: #0a2a70;
+  margin-bottom: 6px;
+}
+.research-list{
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+.research-list li{
+  margin: 6px 0;
+}
+
+.scroll-panel::-webkit-scrollbar{ width: 10px; }
+.scroll-panel::-webkit-scrollbar-thumb{
+  background: rgba(47,109,255,.22);
+  border-radius: 999px;
+  border: 3px solid rgba(255,255,255,.55);
+}
+.scroll-panel::-webkit-scrollbar-track{
+  background: transparent;
+}
