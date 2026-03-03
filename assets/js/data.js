@@ -37,13 +37,13 @@ window.COURSE_DATA = {
     },
   
     teachers: {
-      An: { id:"An", name:"安竹林", title:"副研究员", bio:"研究方向：深度神经网络轻量化与加速；终身学习。", photo:"assets/img/azl.webp" },
-      Bu: { id:"Bu", name:"卜东波", title:"研究员", bio:"研究方向：生物信息学；计算机算法设计与分析。", photo:"assets/img/bdb.webp" },
-      Dai: { id:"Dai", name:"代锋", title:"研究员", bio:"研究方向：计算机视觉；图像处理与分析。", photo:"assets/img/df.webp" },
-      Gao: { id:"Gao", name:"高林", title:"研究员", bio:"研究方向：智能计算机图形学；三维计算机视觉；模式识别。", photo:"assets/img/gl.webp" },
+      An: { id:"An", name:"安竹林", title:"博导, 副研究员", bio:"研究方向：深度神经网络轻量化与加速；终身学习。", photo:"assets/img/azl.webp" },
+      Bu: { id:"Bu", name:"卜东波", title:"博导, 研究员", bio:"研究方向：生物信息学；计算机算法设计与分析。", photo:"assets/img/bdb.webp" },
+      Dai: { id:"Dai", name:"代锋", title:"博导, 研究员", bio:"研究方向：计算机视觉；图像处理与分析。", photo:"assets/img/df.webp" },
+      Gao: { id:"Gao", name:"高林", title:"博导, 研究员", bio:"研究方向：智能计算机图形学；三维计算机视觉；模式识别。", photo:"assets/img/gl.webp" },
       Huang: { id:"Huang", name:"黄礼泊", title:"助理研究员", bio:"研究方向：机器学习；神经科学。", photo:"assets/img/hlb.webp" },
-      Li: { id:"Li", name:"李雪琦", title:"副研究员", bio:"研究方向：领域专用加速器（DSA）; 近存计算架构（PIM）; 算法-架构-工艺跨层协同优化。", photo:"assets/img/lxq.webp" },
-      Sun: { id:"Sun", name:"孙世伟", title:"副研究员", bio:"研究方向：计算糖组学；生物信息学。", photo:"assets/img/ssw.webp" },
+      Li: { id:"Li", name:"李雪琦", title:"硕导, 副研究员", bio:"研究方向：领域专用加速器（DSA）; 近存计算架构（PIM）; 算法-架构-工艺跨层协同优化。", photo:"assets/img/lxq.webp" },
+      Sun: { id:"Sun", name:"孙世伟", title:"博导, 副研究员", bio:"研究方向：计算糖组学；生物信息学。", photo:"assets/img/ssw.webp" },
       Xing: { id:"Xing", name:"邢云冰", title:"高级工程师", bio:"研究方向：普适计算、人机交互、视频编码与压缩、远程交互技术。", photo:"assets/img/xyb.webp" },
     },
   
