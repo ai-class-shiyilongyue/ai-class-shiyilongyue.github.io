@@ -33,6 +33,7 @@ window.COURSE_DATA = {
         F: "Li",
         G: "Sun",
         H: "Xing",
+        I: "Bao"
       },
     },
   
@@ -109,6 +110,71 @@ window.COURSE_DATA = {
           ]
         },
       ] },
+      Bao: {id:"Bao", name:"包云岗", title:"副所长, 博导, 研究员", bio:"研究方向：数据中心体系结构；处理器芯片敏捷设计；开源芯片生态等。", photo:"assets/img/byg.webp", research: [{
+        heading: "个人简历",
+        items: [
+            "经历：2003年本科毕业于南京大学，2008年获中科院计算所博士学位，2010-2012年普林斯顿大学博士后，现为中科院计算所研究员，先进计算机系统研究中心主任，中国科学院大学岗位教授，博士生导师，中国开放指令生态（RISC-V）联盟秘书长。",
+            "学术：研究方向是计算机系统结构，包括数据中心体系结构、处理器芯片敏捷设计、开源芯片生态等。担任国家重点研发计划、自然基金委、中科院战略性先导科技专项、计算所-华为战略合作项目等重大项目及课题负责人，主持研制多款达到国际先进水平的系统，包括访存监控系统HMTT、标签化体系结构Labeled RISC-V原型芯片、面向芯片敏捷设计的RISC-V系统级原型验证服务SERVE平台等，相关技术已在华为、阿里、Intel等国内外企业应用。在国际会议期刊发表了50余篇论文，活跃于国际计算机体系结构学术前沿，长期受邀担任ASPLOS、ISCA、MICRO、SC等CCF-A类国际顶级会议程序委员会委委员，担任IEEE MICRO专刊特邀客座编辑、国际顶级论坛Dagstuhl Seminar共同主席。",
+            "荣誉：入选华为2015年全球合作五个代表成果写入其年报、获阿里巴巴最佳合作项目奖。曾两次获计算所优秀论文一等奖，获“CCF-Intel青年学者”奖，入选2016年中国计算机大会特邀大会报告、ARM2018全球研究峰会三个特邀大会报告之一、中科院青年创新促进会优秀会员，获“CCF-IEEE CS”青年科学家奖、共青团中央“全国向上向善好青年”荣誉称号。",
+            "任职：先后担任青年计算机科技论坛（YOCSEF）2018年度副主席，ACM China副主席，中国科学院青年创新促进会第三届与第四届理事，未来论坛青年理事与青年科学家创新联盟2019年度轮值主席，《中国计算机学会通讯》专栏主编等。",
+            "2018.04 – 至今 先进计算机系统研究中心主任，中科院计算所",
+            "2017.01 – 2018.04 先进计算机系统研究中心常务副主任，中科院计算所",
+            "2015.05 – 2017.01 先进计算机系统研究中心副主任，中科院计算所",
+            "2015.09 – 至今 研究员，中科院计算所",
+            "2011.09 – 2015.08 副研究员，中科院计算所",
+            "2010.10 – 2012.09 博士后，普林斯顿大学计算机系",
+            "2008.09 – 2011.09 助理研究员，中科院计算所",
+            "2003.09 – 2008.09  工学博士，中科院计算所",
+            "1999.09 – 2003.07 理学学士，南京大学计算机科学与技术系"
+            ]
+          },
+          {
+            "heading": "主要论著",
+            "items": [
+              "Xin Jin, Yaoyang Zhou, Bowen Huang, Zihao Yu, Xusheng Zhan, Huizhe Wang, Sa Wang, Ningmei Yu, Ninghui Sun, Yungang Bao, QoSMT: Supporting Precise Performance Control for Simultaneous multithreading Architecture . in ACM International Conference on Supercomputing (ICS), 2019. (CCF B类)",
+              "Jing Guo, Zihao Chang, Sa Wang, Haiyang Ding, Yihui Feng, Liang Mao, Yungang Bao, Who Limits the Resource Efficiency of My Datacenter: An Analysis of Alibaba Datacenter Traces . in IEEE/ACM International Symposium on Quality of Service (IWQoS), 2019. （CCF B类）",
+              "Wenlong Ma, Yuqing Zhu, Cheng Li, Mengying Guo, Yungang Bao, BiloKey: A Scalable Bi-Index Locality-Aware In-Memory Key-Value Store . in IEEE Transactions on Parallel and Distributed Systems (TPDS), 2019. （CCF A类）",
+              "Ke Zhang, Yisong Chang, Mingyu Chen, Yungang Bao, Zhiwei Xu, Computer Organization and Design Course with FPGA Cloud . in the SIGCSE Technical Symposium (SIGCSE), 2019. （国内第四篇长文）",
+              "余子濠,刘志刚,李一苇,黄博文,王卅,孙凝晖,包云岗. 芯片敏捷开发实践：标签化RISC-V[J]. 计算机研究与发展, 2019, 56(1): 35-48.",
+              "Yiwen Shao, Sa Wang, Yungang Bao, CryptZip: Squeezing out the Redundancy in Homomorphically Encrypted Backup Data. 9th ACM SIGOPS Asia-Pacific Workshop on Systems (APSys), 2018.",
+              "Qun Huang, Patric P. C. Lee, Yungang Bao SketchLearn: Relieving User Burdens in Approximate Measurement with Automated Statistical Inference. Annual Conference of the ACM Special Interest Group on Data Communication (SIGCOMM), 2018. （CCF A类）",
+              "Zihao Yu, Bowen Huang, Jiuyue Ma, Ninghui Sun, Yungang Bao, Labeled RISC-V: A New Perspective on Software-Defined Architecture. First Workshop on Computer Architecture Research with RISC-V (CARRV 2017) Co-located with MICRO, 2017.",
+              "Yuqing Zhu, Jianxun Liu, Mengying Guo, Yungang Bao, Wenlong Ma, Zhuoyue Liu, Kunpeng Song, Yingchun Yang, BestConfig: tapping the performance potential of systems via automatic configuration tuning. Symposium on Cloud Computing (SoCC), 2017. （CCF B类）",
+              "Tianwei Zhang, Yuan Xu, Yungang Bao, Ruby B. Lee, CloudShelter: Protecting Virtual Machines' Memory Resource Availability in Clouds, IEEE International Conference on Computer Design (ICCD), 2017. （CCF B类）",
+              "Shiqi Lian, Yinhe Han, Ying Wang, Yungang Bao, Hang Xiao, Xiaowei Li, Ninghui Sun, Dadu: Accelerating Inverse Kinematics for High-DOF Robots, Proceedings of the 54th Annual Design Automation Conference (DAC) 2017. （CCF B类）",
+              "Yungang Bao, Sa Wang, Labeled von Neumann Architecture for Software-Defined Cloud. J. Comput. Sci. Technol. 32(2): 219-223 (2017) Xusheng Zhan, Yungang Bao, Christian Bienia, Kai Li, PARSEC3.0: A Multicore Benchmark Suite with Network Stacks and SPLASH-2X. SIGARCH Computer Architecture News 44(5): 1-16 (2016)",
+              "Jiuyue Ma, Xiufeng Sui, Ninghui Sun, Yupeng Li, Zhihao Yu, Bowen Huang, Tiani Xu, Zhicheng Yao, Yun Chen, Haibin Wang, Lixing Zhang, Yungang Bao, Supporting Differentiated Services in Computers via Programmable Architecture for Resourcing-on-Demand (PARD) , in the 20th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2015. （CCF A类）",
+              "Zehan Cui, Sally A. McKee, Zhongbin Zha, Yungang Bao, Mingyu Chen, DTail: A Flexible Approach to DRAM Refresh Management , to appear in ACM International Conference on Supercomputing (ICS), 2014. （CCF B类）",
+              "Rui Ren, Jiuyue Ma, Xiufeng Sui, and Yungang Bao, D^2P: A Distributed Deadline Propagation Approach to Tolerate Long-Tail Latency in Datacenters , appear in 5th ACM Asia-Pacific Workshop on Systems (APSys), 2014.",
+              "Tianshi Chen, Qi Guo, Olivier Temam, Yue Wu, Yungang Bao, Zhiwei Xu, and Yunji Chen, Statistical Performance Comparisons of Computers, to appear in IEEE Transactions on Computers (IEEE TC), 2014. （CCF A类）",
+              "Licheng Chen, Zhipeng Wei, Zehan Cui, Mingyu Chen, Haiyang Pan, Yungang Bao, CMD: Classification-based Memory Deduplication through Page Access Characteristics , in the 10th ACM SIGOPS/SIGPLAN International Conference on Virtual Execution Environments (VEE), 2014. （CCF B类）",
+              "Lei Liu, Zehan Cui, Yong Li, Yungang Bao, Mingyu Chen, Chengyong Wu, BPM/BPM+: Software-based Memory Partitioning Mechanisms for Eliminating DRAM Bank-/Channel-level Interferences in Multicore Systems, to appear in the ACM Transactions on Architecture and Code Optimization (TACO), 2014.",
+              "Yongbing Huang, Licheng Chen, Zehan Cui, Yuan Ruan, Yungang Bao, Mingyu Chen, Ninghui Sun, HMTT: A Hybrid Hardware/Software Tracing System for Bridging the DRAM Access Trace's Semantic Gap , to appear in the ACM Transactions on Architecture and Code Optimization (TACO), 2014. （CCF B类）",
+              "Licheng Chen, Yanan Wang, Zehan Cui, Yongbing Huang, Yungang Bao, Mingyu Chen, Scattered Superpage: A Case for Bridging the Gap between Superpage and Page Coloring, Proceedings of the 31st IEEE International Conference on Computer Design (ICCD), Asheville, NC, 2013.（CCF B类）",
+              "Lei Liu, Zehan Cui, Mingjie Xing, Yungang Bao, Mingyu Chen, Chengyong Wu, A Software Memory Partition Approach for Eliminating Bank-level Interference in Multicore Systems, International Conference on Parallel Architectures and Compilation Techniques (PACT), 2012. （CCF B类）",
+              "Yongbing Huang, Zehan Cui, Licheng Chen, Wenli Zhang, Yungang Bao, Mingyu Chen, HaLock: Hardware-Assisted Lock Contention Detection in Multithreaded Applications, International Conference on Parallel Architectures and Compilation Techniques (PACT), 2012. （CCF B类）",
+              "Pengfei Zhu, Mingyu Chen, Yungang Bao, Licheng Chen, and Yongbing Huang, Trace-driven Simulation of the Memory System Scheduling in Multithread application, ACM SIGPLAN Workshop on Memory Systems Performance and Correctness (MSPC) co-located with PLDI, 2012.",
+              "Licheng Chen, Zehan Cui, Yongbing Huang, Yungang Bao, Guangming Tan, Mingyu Chen, A Lightweight Hybrid Hardware/Software Approach for Object-Relative Memory Profiling, IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS), New Brunswick, NJ, April 1-3, 2012.",
+              "Erlin Yao, Yungang Bao, Mingyu Chen, What Hill-Marty model learn from and break through Amdahl's law?, Information Processing Letters (IPL), 2011.",
+              "Guangming Tan, Linchuan Li, Sean Triechle, Everett Phillips, Yungang Bao, Ninghui Sun, Fast Implementation of DGEMM on Fermi GPU, ACM/IEEE Supercomputing (SC), 2011. （CCF A类）",
+              "Zehan Cui, Yan Zhu, Yungang Bao and Mingyu Chen, A Fine-grained component-level power measurement method, The First International Workshop on Power Measurement and Profiling (PMP) in conjunction with IEEE IGCC, 2011.",
+              "Dan Tang, Yungang Bao, Weiwu Hu, Mingyu Chen, DMA Cache: Using On-Chip Storage to Architecturally Separate I/O Data from CPU Data for Improving I/O Performance, the 16th IEEE International Symposium on High-Performance Computer Architecture (HPCA), 2010. （计算所优秀论文一等奖，CCF A类）",
+              "Erlin Yao, Yungang Bao, Guangming Tan, Mingyu Chen, Extending Amdahl's Law in the Multicore Era, ACM SIGMETRICS Performance Evaluation Review (PER), Volume 37 , Issue 2, September 2009.",
+              "Dan Tang, Yungang Bao, Yunji Chen, Weiwu Hu, Mingyu Chen, Exploiting the Produce-Consume Relationship in DMA to Improve I/O Performanc, Workshop on The Influence of I/O on Microprocessor Architecture (IOM) in conjunction with the 15th International Symposium on High-Performance Computer Architecture (HPCA), Raleigh, North Carolina, February 15, 2009.",
+              "Zehan Cui, Licheng Chen, Yungang Bao, Mingyu Chen, A Swap-based Cache Set Index Scheme to Leverage both Superpage and Page Coloring Optimizations , to appear in the Design Automation Conference (DAC), 2014. （CCF A类）",
+              "Lei Liu, Yong Li, Zehan Cui, Yungang Bao, Mingyu Chen, Chengyong Wu, Going Vertical in Memory Management: Handling Multiplicity by Multi-policy , to appear in the 41st International Symposium on Computer Architecture (ISCA), 2014. （CCF A类）",
+              "Yungang Bao, Mingyu Chen, Yuan Ruan, Li Liu, Jianping Fan, Qingbo Yuan, Bo Song, Jianwei Xu, HMTT: A Platform Independent Full-System Memory Trace Monitoring System, International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS),Annapolis, Maryland, USA, June 2-6,2008. （计算所优秀论文一等奖，CCF B类）"
+            ]
+          },
+          {
+            heading: "科研项目",
+            items: [
+                "国家自然科学基金国际重点合作项目，61420106013，“高效通用数据中心体系结构研究”，中科院计算所与普林斯顿大学联合执行，2015/01-2019/12, 280万，总协调人",
+                "国家自然科学基金青年基金，基于软硬件混合监测机制的多核环境下内存系统性能分析与优化技术研究，2010/01-2011/12，项目负责人"
+                ]
+              },
+        ]
+      },
       Bu: { id:"Bu", name:"卜东波", title:"博导, 研究员", bio:"研究方向：生物信息学；计算机算法设计与分析。", photo:"assets/img/bdb.webp", research: [{
             heading: "个人简历",
             items: [
@@ -463,10 +529,9 @@ window.COURSE_DATA = {
           {
             "heading": "个人简历",
             "items": [
-              "邢云冰，中国科学院计算所高级工程师",
-              "主要从事手语、人机交互与数字内容合成方向的研发，拥有扎实的计算机专业基础知识和丰富的工程项目经验。",
-              "拥有发明专利30余项，其中已授权17余项，已转让5项。",
-              "成果落地为应用系统，广泛用于残疾人信息无障碍等领域，包括面向气象节目的手语字幕系统，冬奥手语播报数字人系统，爱心小屋远程亲情互动系统，残疾人远程手语翻译服务平台、科教卫同屏互动服务平台等多个平台。"
+              "主要从事手语、人机交互与数字内容合成方向的研发，拥有发明专利30余项，其中已授权17项，已转让5项。成果落地为应用系统，广泛用于残疾人信息无障碍等领域，包括面向气象节目的手语字幕系统，冬奥手语播报数字人系统，爱心小屋远程亲情互动系统，残疾人远程手语翻译服务平台、科教卫同屏互动服务平台等多个平台。",
+              "2008/4 – 至今，中国科学院计算技术研究所，助理工程师/工程师/高级工程师",
+              "2001/9 – 2008/4，西北工业大学，通信与信息系统，本硕连读"
             ]
           },
           {
@@ -504,9 +569,9 @@ window.COURSE_DATA = {
         // ],
       },
   
-      { week: 2, lessonId: "02", date: "2026-03-11", teacherId: "Li",
-        title: "数据与算力基础",
-        summary: "数据的分类、采集与预处理；AI 所需算力基础认知；算力与算法的匹配逻辑。",
+      { week: 2, lessonId: "02", date: "2026-03-11", teacherId: "Bao",
+        title: "处理器芯片-昨天今天明天",
+        summary: "回顾处理器芯片发展历程，以开源 RISC‑V 与人才培养推动自主可控创新。",
         gallery: [
         ],
         materials: [
