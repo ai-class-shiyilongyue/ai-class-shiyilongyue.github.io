@@ -111,7 +111,7 @@
       if (!wrap) return;
   
       const year = 2026;
-      const months = [2, 3, 4, 5, 6]; // Mar..Jul
+      const months = [2, 3, 4, 5]; // Mar..Jul
       const weekDayNames = ["一", "二", "三", "四", "五", "六", "日"];
       const byDate = new Map(DATA.lessons.map(l => [l.date, l]));
   
