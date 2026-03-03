@@ -502,7 +502,7 @@ window.COURSE_DATA = {
     lessons: [
       {
         week: 1, lessonId: "01", date: "2026-03-04", teacherId: "Bu",
-        title: "人工智能发展与数据驱动基础",
+        title: "什么是计算？---从机械式加法器到巴贝奇差分机",
         summary: "什么是计算？如何用机械实现计算？如何用与非门、二极管实现计算？",
         gallery: [
         ],
