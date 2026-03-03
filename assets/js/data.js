@@ -644,14 +644,5 @@ window.COURSE_DATA = {
              { label: "资料课后上传", note: "等待课程结束上传后更新" },
            ],
       },
-      // { week: 15, lessonId: "15", date: "2026-07-01", teacherId: "",
-      //   title: "数字人实践体验",
-      //   summary: "数字人制作工具实操；完成个人数字人搭建任务。",
-      //   gallery: [
-      //   ],
-      //   materials: [
-      //        { label: "资料课后上传", note: "等待课程结束上传后更新" },
-      //      ],
-      // },
     ],
   };
