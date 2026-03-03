@@ -507,7 +507,7 @@ window.COURSE_DATA = {
         gallery: [
         ],
         materials: [
-             { label: "资料课后上传", note: "等待课程结束上传后更新" },
+             {label: "PDF", url: "assets/pdf/class_1.pdf", note: "演示文档"},
            ],
         // outline: ["导入与课程框架", "关键概念讲解", "示例与答疑"],
         // gallery: [
