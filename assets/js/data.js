@@ -568,6 +568,7 @@ window.COURSE_DATA = {
              { label: "资料课后上传", note: "等待课程结束上传后更新" },
            ],
       },
+      
       { week: 7, lessonId: "07", date: "2026-04-15", teacherId: "Dai",
         title: "机器学习启蒙：什么是机器学习",
         summary: "机器学习是什么；数据与特征；如何衡量机器学习的效果；最简单的模型：线性模型。",
