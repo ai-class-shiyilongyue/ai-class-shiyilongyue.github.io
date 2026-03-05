@@ -504,7 +504,14 @@ window.COURSE_DATA = {
         week: 1, lessonId: "01", date: "2026-03-04", teacherId: "Bu",
         title: "什么是计算？---从机械式加法器到巴贝奇差分机",
         summary: "什么是计算？如何用机械实现计算？如何用与非门、二极管实现计算？",
-        gallery: [
+        gallery: [ "class/1Bu/pic-25.webp", "class/1Bu/pic-26.webp", "class/1Bu/pic-27.webp", 
+          "class/1Bu/pic-18.webp", "class/1Bu/pic-21.webp", "class/1Bu/pic-22.webp", 
+          "class/1Bu/pic-24.webp", "class/1Bu/pic-19.webp", "class/1Bu/pic-17.webp", 
+          "class/1Bu/pic-14.webp", "class/1Bu/pic-16.webp", "class/1Bu/pic-15.webp", 
+          "class/1Bu/pic-10.webp", "class/1Bu/pic-11.webp", "class/1Bu/pic-13.webp", 
+          "class/1Bu/pic-1.webp", "class/1Bu/pic-2.webp", "class/1Bu/pic-3.webp", 
+          "class/1Bu/pic-4.webp", "class/1Bu/pic-5.webp", "class/1Bu/pic-6.webp", 
+          "class/1Bu/pic-7.webp", "class/1Bu/pic-8.webp", "class/1Bu/pic-9.webp", 
         ],
         materials: [
              {label: "PDF", url: "assets/pdf/class_1.pdf", note: "演示文档"},

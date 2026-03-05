@@ -241,7 +241,7 @@
   
         const galleryHtml = gallery.length
           ? `<div class="gallery">
-              ${gallery.slice(0, 6).map(src => `
+              ${gallery.slice(0, 30).map(src => `
                 <a class="gallery-item" href="${escapeHtml(src)}" target="_blank" rel="noopener">
                   <img src="${escapeHtml(src)}" alt="课堂图片" />
                 </a>

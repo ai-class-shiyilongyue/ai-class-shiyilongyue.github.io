@@ -569,7 +569,7 @@ h3{ font-size: 16px; }
 }
 .gallery-item img{
   width:100%;
-  height: 160px;
+  height: 100%;
   object-fit: cover;
   display:block;
   transition: transform .18s ease;
