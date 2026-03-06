@@ -505,9 +505,11 @@ window.COURSE_DATA = {
         title: "什么是计算？---从机械式加法器到巴贝奇差分机",
         summary: "什么是计算？如何用机械实现计算？如何用与非门、二极管实现计算？",
         gallery: [ "class/1Bu/pic-25.webp", "class/1Bu/pic-26.webp", "class/1Bu/pic-27.webp", 
-          "class/1Bu/pic-18.webp", "class/1Bu/pic-21.webp", "class/1Bu/pic-22.webp", 
+          "class/1Bu/pic-18.webp", "class/1Bu/pic-21.webp", "class/1Bu/pic-22.webp",
+          "class/1Bu/pic1-4.webp", "class/1Bu/pic1-5.webp", "class/1Bu/pic1-6.webp",  
           "class/1Bu/pic-24.webp", "class/1Bu/pic-19.webp", "class/1Bu/pic-17.webp", 
           "class/1Bu/pic-14.webp", "class/1Bu/pic-16.webp", "class/1Bu/pic-15.webp", 
+          "class/1Bu/pic1-3.webp", "class/1Bu/pic1-1.webp", "class/1Bu/pic1-2.webp", 
           "class/1Bu/pic-10.webp", "class/1Bu/pic-11.webp", "class/1Bu/pic-13.webp", 
           "class/1Bu/pic-1.webp", "class/1Bu/pic-2.webp", "class/1Bu/pic-3.webp", 
           "class/1Bu/pic-4.webp", "class/1Bu/pic-5.webp", "class/1Bu/pic-6.webp", 
@@ -515,6 +517,7 @@ window.COURSE_DATA = {
         ],
         materials: [
              {label: "PDF", url: "assets/pdf/class_1.pdf", note: "演示文档"},
+             {label: "授课视频/照片", url: "https://pan.baidu.com/s/19ECfqv81rot4Er7M7t9JBQ", note: "百度网盘"},
            ],
         // outline: ["导入与课程框架", "关键概念讲解", "示例与答疑"],
         // gallery: [
