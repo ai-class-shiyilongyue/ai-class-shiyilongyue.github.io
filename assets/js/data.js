@@ -655,5 +655,14 @@ window.COURSE_DATA = {
              { label: "资料课后上传", note: "等待课程结束上传后更新" },
            ],
       },
+      { week: 14, lessonId: "14", date: "2026-06-24", teacherId: "代锋, 孙世伟",
+        title: "期末活动",
+        summary: "期末活动",
+        gallery: [
+        ],
+        materials: [
+             { label: "资料课后上传", note: "等待课程结束上传后更新" },
+           ],
+      },
     ],
   };
