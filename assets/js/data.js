@@ -530,17 +530,17 @@ window.COURSE_DATA = {
         // ],
       },
   
-      { week: 2, lessonId: "02", date: "2026-03-11", teacherId: "Bao",
-        title: "处理器芯片-昨天今天明天",
-        summary: "回顾处理器芯片发展历程，以开源 RISC‑V 与人才培养推动自主可控创新。",
-        gallery: [
-        ],
-        materials: [
-             { label: "资料课后上传", note: "等待课程结束上传后更新" },
-           ],
-      },
+      // { week: 2, lessonId: "02", date: "2026-03-11", teacherId: "Bao",
+      //   title: "处理器芯片-昨天今天明天",
+      //   summary: "回顾处理器芯片发展历程，以开源 RISC‑V 与人才培养推动自主可控创新。",
+      //   gallery: [
+      //   ],
+      //   materials: [
+      //        { label: "资料课后上传", note: "等待课程结束上传后更新" },
+      //      ],
+      // },
 
-      { week: 3, lessonId: "03", date: "2026-03-18", teacherId: "Sun",
+      { week: 2, lessonId: "02", date: "2026-03-11", teacherId: "Sun",
         title: "走进AI智能体",
         summary: "认识Coze，解锁智能小助手的秘密。",
         gallery: [
@@ -550,7 +550,7 @@ window.COURSE_DATA = {
            ],
       },
   
-      { week: 4, lessonId: "04", date: "2026-03-25", teacherId: "Sun",
+      { week: 3, lessonId: "03", date: "2026-03-18", teacherId: "Sun",
         title: "动手搭建AI小助手",
         summary: "从零实现专属智能Agent。",
         gallery: [
@@ -559,7 +559,7 @@ window.COURSE_DATA = {
              { label: "资料课后上传", note: "等待课程结束上传后更新" },
            ],
       },
-      { week: 5, lessonId: "05", date: "2026-04-01", teacherId: "Huang",
+      { week: 4, lessonId: "04", date: "2026-03-25", teacherId: "Huang",
         title: "python编程与agent编程",
         summary: "Python 基础语法；编程逻辑与代码实现；简单交互程序开发。",
         gallery: [
@@ -569,7 +569,7 @@ window.COURSE_DATA = {
            ],
       },
   
-      { week: 6, lessonId: "06", date: "2026-04-08", teacherId: "Huang",
+      { week: 5, lessonId: "05", date: "2026-04-01", teacherId: "Huang",
         title: "python编程与agent编程",
         summary: "Agent 编程基础；分支结构编程；完成数码数字识别任务搭建。",
         gallery: [
@@ -579,7 +579,7 @@ window.COURSE_DATA = {
            ],
       },
       
-      { week: 7, lessonId: "07", date: "2026-04-15", teacherId: "Dai",
+      { week: 6, lessonId: "06", date: "2026-04-08", teacherId: "Dai",
         title: "机器学习启蒙：什么是机器学习",
         summary: "机器学习是什么；数据与特征；如何衡量机器学习的效果；最简单的模型：线性模型。",
         gallery: [
@@ -589,7 +589,7 @@ window.COURSE_DATA = {
            ],
       },
   
-      { week: 8, lessonId: "08", date: "2026-04-22", teacherId: "Dai",
+      { week: 7, lessonId: "07", date: "2026-04-15", teacherId: "Dai",
         title: "机器学习初探：传统机器学习算法",
         summary: "决策树算法原理与编程实现；其他机器学习算法简介。",
         gallery: [
@@ -598,7 +598,7 @@ window.COURSE_DATA = {
              { label: "资料课后上传", note: "等待课程结束上传后更新" },
            ],
       },
-      { week: 9, lessonId: "09", date: "2026-05-20", teacherId: "An",
+      { week: 8, lessonId: "08", date: "2026-05-20", teacherId: "An",
         title: "现代人工智能的基石：感知机与多层感知机",
         summary: "感知机与多层感知机的概念，使用面包板搭建感知机和多层感知机模拟逻辑门。",
         gallery: [
@@ -608,7 +608,7 @@ window.COURSE_DATA = {
            ],
       },
   
-      { week: 10, lessonId: "10", date: "2026-05-27", teacherId: "An",
+      { week: 9, lessonId: "09", date: "2026-04-22", teacherId: "An",
         title: "让机器像人一样学习：人工神经网络",
         summary: "神经网络概念及其训练方法，使用pytorch实现基于全连接神经网络的手写数字识别。",
         gallery: [
@@ -617,7 +617,7 @@ window.COURSE_DATA = {
              { label: "资料课后上传", note: "等待课程结束上传后更新" },
            ],
       },
-      { week: 11, lessonId: "11", date: "2026-06-03", teacherId: "Xing",
+      { week: 10, lessonId: "10", date: "2026-05-27", teacherId: "Xing",
         title: "计算机如何认识图像：深度学习与图像识别",
         summary: "卷积神经网络（CNN）原理与结构；使用pytorch实现基于CNN的手写数字识别；模型对比分析。",
         gallery: [
@@ -627,7 +627,7 @@ window.COURSE_DATA = {
            ],
       },
   
-      { week: 12, lessonId: "12", date: "2026-06-10", teacherId: "Xing",
+      { week: 11, lessonId: "11", date: "2026-06-03", teacherId: "Xing",
         title: "计算机如何创造图像：图像生成与安全伦理",
         summary: "从VAE到GAN；使用pytorch实现手写数字生成；AI 技术安全风险，人工智能伦理规范与安全教育。",
         gallery: [
@@ -636,7 +636,7 @@ window.COURSE_DATA = {
              { label: "资料课后上传", note: "等待课程结束上传后更新" },
            ],
       },
-      { week: 13, lessonId: "13", date: "2026-06-17", teacherId: "Gao",
+      { week: 12, lessonId: "12", date: "2026-06-10", teacherId: "Gao",
         title: "数字人技术解析",
         summary: "数字人核心技术入门。",
         gallery: [
@@ -646,7 +646,7 @@ window.COURSE_DATA = {
            ],
       },
   
-      { week: 14, lessonId: "14", date: "2026-06-24", teacherId: "Gao",
+      { week: 13, lessonId: "13", date: "2026-06-17", teacherId: "Gao",
         title: "数字人实践体验",
         summary: "数字人制作工具实操；完成个人数字人搭建任务。",
         gallery: [
@@ -657,3 +657,4 @@ window.COURSE_DATA = {
       },
     ],
   };
+  // 2026-06-24
