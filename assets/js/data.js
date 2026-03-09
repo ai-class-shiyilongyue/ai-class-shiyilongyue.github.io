@@ -511,9 +511,10 @@ window.COURSE_DATA = {
           "class/1Bu/pic-14.webp", "class/1Bu/pic-16.webp", "class/1Bu/pic-15.webp", 
           "class/1Bu/pic1-3.webp", "class/1Bu/pic1-1.webp", "class/1Bu/pic1-2.webp", 
           "class/1Bu/pic-10.webp", "class/1Bu/pic-11.webp", "class/1Bu/pic-13.webp", 
-          "class/1Bu/pic-1.webp", "class/1Bu/pic-2.webp", "class/1Bu/pic-3.webp", 
-          "class/1Bu/pic-4.webp", "class/1Bu/pic-5.webp", "class/1Bu/pic-6.webp", 
-          "class/1Bu/pic-7.webp", "class/1Bu/pic-8.webp", "class/1Bu/pic-9.webp", 
+          "class/1Bu/pic-0.webp", "class/1Bu/pic-1.webp", "class/1Bu/pic-2.webp",
+          "class/1Bu/pic-3.webp", "class/1Bu/pic-4.webp", "class/1Bu/pic-5.webp",  
+          "class/1Bu/pic-6.webp", "class/1Bu/pic-7.webp", "class/1Bu/pic-8.webp", 
+          "class/1Bu/pic-9.webp", 
         ],
         materials: [
              {label: "PDF", url: "assets/pdf/class_1.pdf", note: "演示文档"},
