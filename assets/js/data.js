@@ -544,10 +544,13 @@ window.COURSE_DATA = {
       { week: 2, lessonId: "02", date: "2026-03-11", teacherId: "Sun",
         title: "走进AI智能体",
         summary: "认识Coze，解锁智能小助手的秘密。",
-        gallery: [
+        gallery: [ "class/2Sun/pic-1.webp", "class/2Sun/pic-2.webp", "class/2Sun/pic-3.webp", 
+          "class/2Sun/pic-4.webp", "class/2Sun/pic-5.webp", "class/2Sun/pic-6.webp", 
+          "class/2Sun/pic-7.webp", "class/2Sun/pic-8.webp", "class/2Sun/pic-9.webp", 
         ],
         materials: [
-             { label: "资料课后上传", note: "等待课程结束上传后更新" },
+             {label: "PDF", url: "assets/pdf/class_2.pdf", note: "演示文档"},
+             {label: "授课视频/照片", url: "https://pan.baidu.com/s/1IzmraaROnhcmLgGSK6uSbQ", note: "百度网盘"},
            ],
       },
   
