@@ -384,7 +384,7 @@ window.COURSE_DATA = {
           }
         ]
       },
-      Huang: { id:"Huang", name:"黄礼泊", title:"助理研究员", bio:"研究方向：机器学习；神经科学。", photo:"assets/img/hlb .webp", research: [
+      Huang: { id:"Huang", name:"黄礼泊", title:"助理研究员", bio:"研究方向：机器学习；神经科学。", photo:"assets/img/hlb.webp", research: [
           {
             heading: "个人简历",
             items: [
