@@ -560,15 +560,19 @@ window.COURSE_DATA = {
              {label: "授课视频/照片", url: "https://pan.baidu.com/s/1IzmraaROnhcmLgGSK6uSbQ", note: "百度网盘"},
            ],
       },
-  
+
       { week: 3, lessonId: "03", date: "2026-03-18", teacherId: "Sun",
         title: "动手搭建AI小助手",
         summary: "从零实现专属智能Agent。",
-        gallery: [
+        gallery: [ "class/3Sun/pic-12.webp", "class/3Sun/pic-1.webp", "class/3Sun/pic-8.webp", 
+          "class/3Sun/pic-9.webp", "class/3Sun/pic-10.webp", "class/3Sun/pic-11.webp", 
+          "class/3Sun/pic-2.webp", "class/3Sun/pic-3.webp", "class/3Sun/pic-7.webp", 
+          "class/3Sun/pic-4.webp", "class/3Sun/pic-6.webp", "class/3Sun/pic-5.webp", 
         ],
         materials: [
-             { label: "资料课后上传", note: "等待课程结束上传后更新" },
-           ],
+          {label: "PDF", url: "assets/pdf/class_3.pdf", note: "演示文档"},
+          {label: "授课视频/照片", url: "https://pan.baidu.com/s/1xMg5ft2lfC0-8QWaX_H_qQ", note: "百度网盘"},
+        ],
       },
       { week: 4, lessonId: "04", date: "2026-03-25", teacherId: "Huang",
         title: "python编程与agent编程",
