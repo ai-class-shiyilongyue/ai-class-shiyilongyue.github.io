@@ -384,48 +384,55 @@ window.COURSE_DATA = {
           }
         ]
       },
-      Huang: { id:"Huang", name:"黄礼泊", title:"助理研究员", bio:"研究方向：机器学习；神经科学。", photo:"assets/img/hlb.webp", research: [
+      Huang: { id:"Huang", name:"黄礼泊", title:"助理研究员", bio:"研究方向：机器学习；神经科学。", photo:"assets/img/hlb .webp", research: [
           {
             heading: "个人简历",
             items: [
-              "黄礼泊是中国科学院计算技术研究所的助理研究员。在此之前，他作为博士后研究员（2021.10 - 2024.8）和实习研究员（2021.7 - 2021.10）在中国科学院计算技术研究所与徐勇军研究员（主任）和安竹林副研究员合作从事深度学习方面的研究。",
-              "他由广东工业大学（2018-2021）Wing-Kuen Ling教授（IET Fellow，国家海外高层次人才）和英国布鲁内尔大学（2019-2020）Lu Gan教授的共同指导下获得了机器学习博士学位。 此前，他在广东工业大学（2016-2018）攻读计算机科学硕士学位，导师为郝志峰教授（汕头大学校长）和蔡瑞初教授（国家优青）。",
-              "2021年12月 — 2024年10月：中国科学院计算技术研究所，副研究员、博士生导师",
-              "2011年9月 — 2021年12月：中国科学院计算技术研究所，副研究员、硕士生导师",
-              "2008年7月 — 2011年9月：中国科学院计算技术研究所，助理研究员",
-              "2002年9月 — 2008年7月：中国科学院计算技术研究所，计算机应用技术，博士",
-              "1998年9月 — 2002年7月：清华大学，计算机科学与技术，本科"
+              "2021年7月 — 至今：中国科学院计算技术研究所，实习研究员、博士后研究员、特别研究助理、助理研究员",
+              "2019年10月 — 2020年10月：英国伦敦布鲁内尔大学（Brunel University of London），电子与电气工程，联合培养博士",
+              "2018年9月 — 2021年7月：广东工业大学，信息与工程学院，信息与通信工程，工学博士",
+              "2016年9月 — 2018年7月：广东工业大学，计算机学院，计算机科学与技术，工学硕士",
+              "2012年9月 — 2016年7月：江西师范大学，数学与信息科学学院，信息与计算数学，理学学士"
             ]
           },
           {
             heading: "主要论著",
             items: [
-              "Zhang, Yanling; Sun, Wanhui; Yang, Chuanguang; Huang, Libo; An, Zhulin; Feng, Weilun; Tang, Wenjing; Xu, Yongjun. TCMP-300: A Comprehensive Traditional Chinese Medicinal Plant Dataset for Plant Recognition. Scientific Data, 12(1):1166, 2025.",
-              "Yang, Nan; Huang, Libo; An, Zhulin; Xu, Yongjun; Hong, Xia; Ling, Wing-Kuen. Classification-Based False Alarm Suppression for SAR Target Detection. 2025 IEEE International Symposium on Circuits and Systems (ISCAS), pp. 1–5, 2025.",
-              "Huang, Jincai; Xu, Yongjun; et al. Foundation models and intelligent decision-making: Progress, challenges, and perspectives. The Innovation, 100948, 2025.",
-              "Liu, Ruiqi; Diao, Boyu; Huang, Libo; An, Zijia; Liu, Hangda; An, Zhulin; Xu, Yongjun. Low-redundancy Distillation for continual learning. Pattern Recognition, 111712, 2025.",
-              "Yang, Han; Yang, Chuanguang; Wang, Qiuli; An, Zhulin; Feng, Weilun; Huang, Libo; Xu, Yongjun. Multi-party Collaborative Attention Control for Image Customization. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.",
-              "Yang, Han; Yang, Chuanguang; An, Zhulin; Huang, Libo; Xu, Yongjun. HSRDiff: A Hierarchical Self-Regulation Diffusion Model for Stochastic Semantic Segmentation. Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 39(2):1701–1709, 2025.",
-              "Yang, Chuanguang; Yu, Xinqiang; Yang, Han; An, Zhulin; Yu, Chengqing; Huang, Libo; Xu, Yongjun. Multi-Teacher Knowledge Distillation with Reinforcement Learning for Visual Recognition. Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 39(9):9148–9156, 2025.",
-              "Feng, Weilun; Qin, Haotong; Yang, Chuanguang; An, Zhulin; Huang, Libo; Diao, Boyu; Wang, Fei; Tao, Renshuai; Xu, Yongjun; Magno, Michele. MPQ-DM: Mixed Precision Quantization for Extremely Low Bit Diffusion Models. Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 39(16):16595–16603, 2025.",
-              "Mai, Haonan; Huang, Libo; An, Zhulin; Zhao, Jiarui; Yang, Chuanguang; Zhao, Erhu; Xu, Yongjun. OLN++: Improved Object Localization Network for Open-world Object Detection. ICASSP 2025—2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 1–5, 2025.",
-              "An, Zijia; Diao, Boyu; Huang, Libo; Liu, Ruiqi; An, Zhulin; Xu, Yongjun. IOR: Inversed Objects Replay for Incremental Object Detection. ICASSP 2025—2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 1–5, 2025.",
-              "Zeng, Yan; Cai, Ruichu; Sun, Fuchun; Huang, Libo; Hao, Zhifeng. A Survey on Causal Reinforcement Learning. IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 36(4):5942–5962, 2024.",
-              "Liu, RuiQi; Diao, Boyu; Huang, Libo; An, Zijia; An, Zhulin; Xu, Yongjun. Continual Learning in the Frequency Domain. Annual Conference on Neural Information Processing Systems (NeurIPS), 37:85389–85411, 2024.",
-              "Yang, Chuanguang; An, Zhulin; Huang, Libo; Bi, Junyu; Yu, Xinqiang; Yang, Han; Diao, Boyu; Xu, Yongjun. CLIP-KD: An Empirical Study of CLIP Model Distillation. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 15952–15962, 2024.",
-              "Yu, Xinqiang; Yang, Chuanguang; Yu, Chengqing; Huang, Libo; An, Zhulin; Xu, Yongjun. Online Policy Distillation with Decision-Attention. International Joint Conference on Neural Networks (IJCNN), pp. 1–8, 2024.",
-              "Feng, Weilun; Yang, Chuanguang; An, Zhulin; Huang, Libo; Diao, Boyu; Wang, Fei; Xu, Yongjun. Relational Diffusion Distillation For Efficient Image Generation. Proceedings of the 32nd ACM International Conference on Multimedia (ACM MM), pp. 205–213, 2024.",
-              "Huang, Libo; An, Zhulin; Zeng, Yan; Xu, Yongjun; et al. KFC: Knowledge Reconstruction and Feedback Consolidation Enable Efficient and Effective Continual Generative Learning. International Conference on Learning Representations (ICLR) Tiny Papers Track, 2024.",
-              "Huang, Libo; Zeng, Yan; Yang, Chuanguang; An, Zhulin; Diao, Boyu; Xu, Yongjun. eTag: Class-Incremental Learning via Embedding Distillation and Task-Oriented Generation. Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 38(11):12591–12599, 2024.",
-              "Huang, Libo; Gan, Lu; Zeng, Yan; Ling, Bingo Wing-Kuen. Automatical Spike Sorting with Low-Rank and Sparse Representation. IEEE Transactions on Biomedical Engineering (IEEE TBE), 71(5):1677–1686, 2023.",
-              "Huang, Libo; Gan, Lu; Ling, Bingo Wing-Kuen. A Unified Optimization Model of Feature Extraction and Clustering for Spike Sorting. IEEE Transactions on Neural Systems and Rehabilitation Engineering (IEEE TNSRE), 29:750–759, 2021.",
-              "Zeng, Yan; Hao, Zhifeng; Cai, Ruichu; Xie, Feng; Huang, Libo; Shimizu, Shohei. Nonlinear Causal Discovery with Multiple High-Dimensional Observations. IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 34(5):2234–2245, 2021.",
-              "蔡瑞初, 赵坤垚, 黄礼泊, 何炯, 陈瑶. 基于CUDA的多信道锋电位实时分类方法. 计算机工程与设计, 41(2):391–396, 2020.",
-              "Huang, Libo; Ling, Bingo Wing-Kuen; Zeng, Yan; Gan, Lu. Spike Sorting Based On Low-Rank And Sparse Representation. IEEE International Conference on Multimedia and Expo (ICME), pp. 1–6, 2020.",
-              "Huang, Libo; Ling, Bingo Wing-Kuen; Cai, Ruichu; Zeng, Yan; He, Jiong; Chen, Yao. WMsorting: Wavelet Packets' Decomposition and Mutual Information-based Spike Sorting Method. IEEE Transactions on NanoBioscience (IEEE TNB), 18(3):283–295, 2019.",
-              "Chen, Yao; Huang, Libo; He, Jiong; Zhao, Kunyao; Cai, Ruichu; Hao, Zhifeng. HASS: High Accuracy Spike Sorting with Wavelet Package Decomposition and Mutual Information. IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pp. 831–838, 2018."
+              "Libo Huang, Lu Gan, Yan Zeng, and Bingo Wing-Kuen Ling*. Automatical spike sorting with low-rank and sparse representation. IEEE Transactions on Biomedical Engineering (IEEE TBME), 2023. (JCR-Q1)",
+              "Libo Huang, Lu Gan, and Bingo Wing-Kuen Ling*. A unified optimization model of feature extraction and clustering for spike sorting. IEEE Transactions on Neural Systems and Rehabilitation Engineering (IEEE TNSRE), 2021. (JCR-Q1)",
+              "Libo Huang, Yan Zeng, Chuanguang Yang, Zhulin An*, et al. eTag: Class-incremental learning via embedding distillation and task-oriented generation. AAAI Conference on Artificial Intelligence (AAAI), 2024. (CCF-A)",
+              "Libo Huang, Zhulin An*, Yan Zeng, et al. KFC: Knowledge reconstruction and feedback consolidation enable efficient and effective continual generative learning. Tiny Papers Track at International Conference on Learning Representations (ICLR), 2024. (oral)",
+              "Libo Huang, Bingo Wing-Kuen Ling*, Yan Zeng, Lu Gan. Spike sorting based on low-rank and sparse representation. IEEE International Conference on Multimedia and Expo (ICME), 2020. (CCF-B, oral)",
+              "Libo Huang, Bingo Wing-Kuen Ling*, Ruichu Cai*, Yan Zeng, Jiong He, Yao Chen. WMsorting: Wavelet packets' decomposition and mutual information-based spike sorting method. IEEE Transactions on NanoBioscience (IEEE TNB), 2019. (JCR-Q1)",
+              "Yao Chen, Libo Huang*, Jiong He, Kunyao Zhao, Ruichu Cai, Zhifeng Hao. HASS: High accuracy spike sorting with wavelet package decomposition and mutual information. IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 2018. (CCF-B, oral)",
+              "Xiangqi Li#, Libo Huang#, Zhulin An*, et al. Geometric feature embedding for effective 3D few-shot class incremental learning. International Conference on Machine Learning (ICML), 2025. (CCF-A)",
+              "Jiarui Zhao, Libo Huang*, Xiangqi Li, Zhulin An*, et al. Representation-steered incremental adapter-tuning for class-incremental learning with pre-trained models, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026. (CCF-A)",
+              "Xiangqi Li, Libo Huang*, Jiarui Zhao, Weilun Feng, Chuanguang Yang, Zhulin An*, Yongjun Xu. Point-UQ: An uncertainty-quantification paradigm for point cloud few-shot class incremental learning. International Conference on Learning Representations (ICLR), 2026. (CCF-A)",
+              "Yanling Zhang, Wanhui Sun, Chuanguang Yang*, Libo Huang*, Zhulin An*, et al. TCMP-300: A comprehensive traditional Chinese medicinal plant dataset for plant recognition. Scientific Data, 2025. (Nature 子刊, JCR-Q1)",
+              "Lve Huang, Xiaowei Yu, Huabiao Yan, Libo Huang*, et al. AF-YOLO: Asymptotic feature extraction and fusion for aerial object detection. IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT), 2025. (JCR-Q1)",
+              "Jincai Huang#, Yongjun Xu#, Qi Wang#, Qi Cheems Wang#, Xingxing Liang#, Fei Wang#, Zhao Zhang#, Wei Wei#, and Boxuan Zhang#, Libo Huang#, et al. Foundation models and intelligent decision-making: Progress, challenges, and perspectives. The Innovation, 2025. (封面文章, 影响因子25.7)",
+              "Haonan Mai, Libo Huang*, Zhulin An*, et al. OLN++: Improved object localization network for open-world object detection. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2025. (CCF-B)",
+              "Nan Yang, Libo Huang*, Zhulin An, Yongjun Xu, Xia Hong, Wing-Kuen Ling. Classification-based false alarm suppression for SAR target detection. IEEE International Symposium on Circuits and Systems (ISCAS), 2025. (CCF-B)",
+              "Yan Zeng, Ruichu Cai, Fuchun Sun*, Libo Huang, Zhifeng Hao. A survey on causal reinforcement learning. IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), 2024. (JCR-Q1)",
             ]
           },
+          {
+            "heading": "科研项目",
+            "items": [
+              "国家领域基金，基于协作博弈与因果分析的智能评估，2025.12-2027.5，主持",
+              "国家领域预研项目，因果模型和算法研究，2024.4-2025.8，主持",
+              "北京市自然科学基金青年项目，4244098，面向实际应用的终身学习技术研究，2024.1-2025.12，主持",
+              "国家公派留学基金，201908440461，国家建设高水平大学公派联合培养博士生项目，2019.10-2020.10，主持",
+            ]
+          },
+          {
+            "heading": "获奖及荣誉",
+            "items": [
+              "中国科学院计算技术研究2023年度“优秀研究人员”",
+              "中国科学院计算技术研究2025年度“优秀研究人员”",
+              "2023年度粤港澳大湾区（黄埔）国际算法算例大赛“序列任务的持续学习”殿军（4/725）",
+            ]
+          }
         ]
       },
       Sun: { id:"Sun", name:"孙世伟", title:"博导, 副研究员", bio:"研究方向：计算糖组学；生物信息学。", photo:"assets/img/ssw.webp", research: [
