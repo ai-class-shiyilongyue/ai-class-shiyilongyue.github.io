@@ -679,10 +679,14 @@ window.COURSE_DATA = {
       { week: 11, lessonId: "11", date: "2026-06-03", teacherId: "Xing",
         title: "计算机如何创造图像：图像生成与安全伦理",
         summary: "从VAE到GAN；使用pytorch实现手写数字生成；AI 技术安全风险，人工智能伦理规范与安全教育。",
-        gallery: [
+        gallery: ["class/11Xing/pic-1.webp", "class/11Xing/pic-2.webp", "class/11Xing/pic-3.webp",
+          "class/11Xing/pic-4.webp", "class/11Xing/pic-5.webp", "class/11Xing/pic-6.webp",
+          "class/11Xing/pic-7.webp", "class/11Xing/pic-8.webp", "class/11Xing/pic-9.webp",
+          "class/11Xing/pic-10.webp", "class/11Xing/pic-11.webp", "class/11Xing/pic-12.webp"
         ],
         materials: [
-              { label: "资料课后上传", note: "等待课程结束上传后更新" },
+            {label: "PDF", url: "assets/pdf/class_10.pdf", note: "演示文档"},
+            {label: "授课视频/照片", url: "https://pan.baidu.com/s/1ZCB2e7yJeoEnAUFTDzgWrw", note: "百度网盘"},
             ],
       },
       { week: 12, lessonId: "12", date: "2026-06-10", teacherId: "Gao",
@@ -694,7 +698,6 @@ window.COURSE_DATA = {
               { label: "资料课后上传", note: "等待课程结束上传后更新" },
             ],
       },
-  
       { week: 13, lessonId: "13", date: "2026-06-17", teacherId: "Gao",
         title: "数字人实践体验",
         summary: "数字人制作工具实操；完成个人数字人搭建任务。",
