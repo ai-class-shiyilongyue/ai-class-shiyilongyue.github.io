@@ -685,36 +685,50 @@ window.COURSE_DATA = {
           "class/11Xing/pic-10.webp", "class/11Xing/pic-11.webp", "class/11Xing/pic-12.webp"
         ],
         materials: [
-            {label: "PDF", url: "assets/pdf/class_10.pdf", note: "演示文档"},
+            {label: "PDF", url: "assets/pdf/class_11.pdf", note: "演示文档"},
             {label: "授课视频/照片", url: "https://pan.baidu.com/s/1ZCB2e7yJeoEnAUFTDzgWrw", note: "百度网盘"},
             ],
       },
       { week: 12, lessonId: "12", date: "2026-06-10", teacherId: "Gao",
         title: "数字人技术解析",
         summary: "数字人核心技术入门。",
-        gallery: [
+        gallery: ["class/12Gao/pic-1.webp", "class/12Gao/pic-2.webp", "class/12Gao/pic-3.webp",
+          "class/12Gao/pic-4.webp", "class/12Gao/pic-5.webp", "class/12Gao/pic-6.webp",
+          "class/12Gao/pic-7.webp", "class/12Gao/pic-8.webp", "class/12Gao/pic-9.webp",
+          "class/12Gao/pic-10.webp", "class/12Gao/pic-11.webp", "class/12Gao/pic-12.webp"
         ],
         materials: [
-              { label: "资料课后上传", note: "等待课程结束上传后更新" },
+            {label: "PDF", url: "assets/pdf/class_12.pdf", note: "演示文档"},
+            {label: "授课视频/照片", url: "https://pan.baidu.com/s/1ZCB2e7yJeoEnAUFTDzgWrw", note: "百度网盘"},
             ],
       },
       { week: 13, lessonId: "13", date: "2026-06-17", teacherId: "Gao",
         title: "数字人实践体验",
         summary: "数字人制作工具实操；完成个人数字人搭建任务。",
-        gallery: [
+        gallery: ["class/13Gao/pic-1.webp", "class/13Gao/pic-2.webp", "class/13Gao/pic-3.webp",
+          "class/13Gao/pic-4.webp", "class/13Gao/pic-5.webp", "class/13Gao/pic-6.webp",
+          "class/13Gao/pic-7.webp", "class/13Gao/pic-8.webp", "class/13Gao/pic-9.webp",
+          "class/13Gao/pic-10.webp", "class/13Gao/pic-11.webp", "class/13Gao/pic-12.webp",
+          "class/13Gao/pic-13.webp", "class/13Gao/pic-14.webp", "class/13Gao/pic-15.webp",
+          "class/13Gao/pic-16.webp", "class/13Gao/pic-17.webp", "class/13Gao/pic-18.webp",
         ],
         materials: [
-              { label: "资料课后上传", note: "等待课程结束上传后更新" },
+            {label: "PDF", url: "assets/pdf/class_13.pdf", note: "演示文档"},
+            {label: "授课视频/照片", url: "https://pan.baidu.com/s/1ZCB2e7yJeoEnAUFTDzgWrw", note: "百度网盘"},
             ],
       },
-      { week: 14, lessonId: "14", date: "2026-06-24", teacherId: "代锋, 孙世伟",
-        title: "期末活动",
-        summary: "期末活动",
-        gallery: [
+      { type: "memory", week: null, lessonId: "memory", date: "", teacherId: "",
+        title: "结课纪念",
+        summary: "衷心祝愿同学们前程似锦! 万物皆算, 承计算之思，启科学之路.",
+        badge: "结课纪念",
+        calendarLabel: "纪念",
+        gallery: ["class/SYLY/pic-0.webp", "class/SYLY/pic-00.webp", "class/SYLY/pic-000.webp",
+          "class/SYLY/pic-1.webp", "class/SYLY/pic-2.webp", "class/SYLY/pic-3.webp",
+          "class/SYLY/pic-4.webp", "class/SYLY/pic-5.webp", "class/SYLY/pic-6.webp",
+          "class/SYLY/pic-7.webp", "class/SYLY/pic-8.webp", "class/SYLY/pic-9.webp",
+          "class/SYLY/pic-10.webp", "class/SYLY/pic-11.webp", "class/SYLY/pic-12.webp",
+          "class/SYLY/pic-13.webp", "class/SYLY/pic-14.webp"
         ],
-        materials: [
-              { label: "资料课后上传", note: "等待课程结束上传后更新" },
-            ],
       },
     ],
   };
