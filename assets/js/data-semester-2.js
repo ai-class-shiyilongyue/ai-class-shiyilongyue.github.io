@@ -49,7 +49,8 @@
       dateRangeLabel: "2026年8月31日—2027年1月17日",
       timeLabel: "每周三下午 · 沿用第一学期时段",
       weekday: 3,
-      teacherOrder: ["Bu", "Sun", "Huang", "Dai", "An", "Xing", "Gao"],
+      // 授课教师展示顺序按姓名拼音排列，课程中的负责人不受此顺序影响。
+      teacherOrder: ["An", "Bu", "Dai", "Gao", "Huang", "Sun", "Xing"],
     },
 
     // 教师资料沿用第一学期，后续无需重复维护个人简介。
