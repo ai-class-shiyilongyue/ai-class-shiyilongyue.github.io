@@ -16,8 +16,9 @@
   <meta name="twitter:description" content="从计算思维出发，在动手实践中理解并创造人工智能。" />
   <meta name="twitter:image" content="https://ai-class-shiyilongyue.github.io/assets/img/og-2026-fall-light.png" />
   <title>计算思维与人工智能｜课程主页</title>
+  <link rel="preload" href="assets/img/school.webp" as="image" type="image/webp" fetchpriority="high" />
   <link rel="stylesheet" href="assets/css/styles.css?v=20260901" />
-  <link rel="stylesheet" href="assets/css/premium.css?v=20260901-light2" />
+  <link rel="stylesheet" href="assets/css/premium.css?v=20260901-photo2" />
 </head>
 <body data-page="home" data-base="">
   <header class="topbar">
@@ -39,12 +40,13 @@
       class="hero card hero-banner"
       style="--mask-a:.1; --mask-b:.8;"
     >
-      <div class="hero-flag" aria-hidden="true">
-        <img class="hero-flag-img" src="assets/img/flag-compact.webp" alt="" width="320" height="214" decoding="async" />
-      </div>
-
       <div class="hero-left">
-        <div class="hero-term" id="heroTerm"></div>
+        <div class="hero-eyebrow-row">
+          <div class="hero-flag" aria-hidden="true">
+            <img class="hero-flag-img" src="assets/img/flag-compact.webp" alt="" width="320" height="214" decoding="async" />
+          </div>
+          <div class="hero-term" id="heroTerm"></div>
+        </div>
         <div class="kicker">Computational Thinking and Artificial Intelligence</div>
         <h1 id="courseTitle">计算思维与人工智能</h1>
         <p class="muted" id="courseSubtitle">
@@ -54,25 +56,48 @@
         <div class="chips" id="courseMetaChips"></div>
 
         <div class="hero-actions">
-          <a class="btn btn-ghost" href="schedule.html">查看课程安排</a>
+          <a class="btn" href="schedule.html">查看课程安排</a>
           <a class="btn btn-ghost" href="downloads.html">进入资料下载</a>
-          <a class="btn" href="memory.html">结课纪念</a>
+          <a class="btn-link" href="memory.html">结课纪念 <span aria-hidden="true">→</span></a>
         </div>
       </div>
 
-      <div class="hero-right">
-        <div class="logos">
-          <div class="logo-box">
-            <div class="logo-label">北京十一学校·龙樾实验中学</div>
-            <img class="logo-img" src="assets/img/partner-logo.webp" alt="学校 Logo" loading="lazy" />
-
+      <aside class="hero-right" aria-label="课程学习路径与联合发起机构">
+        <div class="hero-journey">
+          <div class="hero-journey-head">
+            <span>Learning journey</span>
+            <span>2026—2027</span>
           </div>
-          <div class="logo-box">
-            <div class="logo-label">中国科学院计算技术研究所</div>
-            <img class="logo-img" src="assets/img/org-logo.webp" alt="机构 Logo" loading="lazy" />
+          <ol class="hero-path">
+            <li>
+              <span class="hero-path-no" aria-hidden="true">01</span>
+              <span><strong>理解原理</strong><small>认识计算与人工智能</small></span>
+            </li>
+            <li>
+              <span class="hero-path-no" aria-hidden="true">02</span>
+              <span><strong>动手实现</strong><small>用代码与模型解决问题</small></span>
+            </li>
+            <li>
+              <span class="hero-path-no" aria-hidden="true">03</span>
+              <span><strong>完成作品</strong><small>创造属于自己的 AI 项目</small></span>
+            </li>
+          </ol>
+
+          <div class="hero-collaboration">
+            <div class="hero-collaboration-title">联合发起 <span>Jointly presented</span></div>
+            <div class="logos">
+              <div class="logo-box">
+                <img class="logo-img" src="assets/img/partner-logo.webp" alt="" loading="lazy" />
+                <div class="logo-label">北京十一学校·龙樾实验中学</div>
+              </div>
+              <div class="logo-box">
+                <img class="logo-img" src="assets/img/org-logo.webp" alt="" loading="lazy" />
+                <div class="logo-label">中国科学院计算技术研究所</div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </aside>
     </section>
 
     <section class="card term-overview" aria-labelledby="termOverviewTitle">
@@ -84,7 +109,7 @@
       <div class="term-overview-options" id="homeTermCards"></div>
     </section>
 
-    <section class="grid-2 home-info-grid">
+    <div class="grid-2 home-info-grid">
       <section class="card course-summary-card">
         <div class="section-kicker">Course narrative</div>
         <h2>课程整体简介</h2>
@@ -103,7 +128,7 @@
         <h2>中国科学院计算技术研究所</h2>
         <p class="muted" id="orgIntro"></p>
       </section>
-    </section>
+    </div>
 
     <section class="card faculty-section">
       <div class="section-kicker">Faculty</div>
@@ -124,6 +149,6 @@
 
   <script defer src="assets/js/data.js"></script>
   <script defer src="assets/js/data-semester-2.js?v=20260901-teacher-order"></script>
-  <script defer src="assets/js/main.js?v=20260901-light2"></script>
+  <script defer src="assets/js/main.js?v=20260901-editorial4"></script>
 </body>
 </html>

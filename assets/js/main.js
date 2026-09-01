@@ -239,7 +239,7 @@
                href="${escapeHtml(termSwitchUrl(term.id, `${BASE}index.html`))}"
                data-term-switch="${escapeHtml(term.id)}"
                ${isActive ? 'aria-current="page"' : ""}
-              aria-label="${escapeHtml(`${roleLabel}：${term.label}`)}">
+              aria-label="${escapeHtml(`${roleLabel}：${term.label}，${dateRange}，${lessonCount} 节课程，${isActive ? "正在浏览" : "查看学期"}`)}">
               <span class="term-overview-card-top">
                 <span class="term-overview-number" aria-hidden="true">${pad2(index + 1)}</span>
                 <span class="term-overview-status">${isActive ? "正在浏览" : "查看学期"}</span>
@@ -248,7 +248,7 @@
               <strong>${escapeHtml(term.label)}</strong>
               <span class="term-overview-date">${escapeHtml(dateRange)}</span>
               <span class="term-overview-count">${lessonCount} 节课程</span>
-              <span class="term-overview-arrow" aria-hidden="true">↗</span>
+              <span class="term-overview-arrow" aria-hidden="true">→</span>
             </a>
           `;
         }).join("");
@@ -259,7 +259,7 @@
       const termTeachers = teacherOrder.map((id) => teacherById(id)).filter(Boolean);
       teacherGrid.innerHTML = termTeachers.map(t => `
         <a class="teacher-card" href="${teacherPageUrl(t.id)}">
-          <div class="avatar"><img src="${escapeHtml(BASE + t.photo)}" alt="${escapeHtml(t.name)}" loading="lazy" decoding="async" /></div>
+          <div class="avatar"><img src="${escapeHtml(BASE + t.photo)}" alt="" loading="lazy" decoding="async" /></div>
           <div class="teacher-meta">
             <div class="teacher-name">${escapeHtml(t.name)}</div>
             <div class="muted small">${escapeHtml(t.title || "")}</div>
