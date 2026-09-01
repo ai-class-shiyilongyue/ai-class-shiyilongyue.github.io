@@ -3,8 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>课程安排｜GitHub Pages</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta name="description" content="计算思维与人工智能课程日历、每周教学主题与授课安排。" />
+  <meta property="og:title" content="课程安排｜计算思维与人工智能 · 第二学期" />
+  <meta property="og:description" content="查看 2026 秋季学期课程日历、教学主题与授课安排。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://ai-class-shiyilongyue.github.io/assets/img/og-2026-fall-light.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="课程安排｜计算思维与人工智能 · 第二学期" />
+  <meta name="twitter:description" content="查看 2026 秋季学期课程日历、教学主题与授课安排。" />
+  <meta name="twitter:image" content="https://ai-class-shiyilongyue.github.io/assets/img/og-2026-fall-light.png" />
+  <title>课程安排｜计算思维与人工智能</title>
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260901" />
+  <link rel="stylesheet" href="assets/css/premium.css?v=20260901-light2" />
 </head>
 <body data-page="schedule" data-base="">
   <header class="topbar">
@@ -25,11 +35,13 @@
     <section class="card">
       <div class="section-head">
         <div>
+          <div class="section-kicker">Academic calendar</div>
           <h1>课程安排</h1>
-          <p class="muted">日历展示 2026/03–2026/06。每周三标注，有课日期可点击进入对应老师页。</p>
+          <p class="muted" id="scheduleRangeText">日历范围与上课时间将根据所选学期显示。</p>
         </div>
         <div class="hint">
           <span class="dot dot-course"></span> 有课（可点击）
+          <span class="dot dot-tbd"></span> 内容待定
           <span class="dot dot-wed"></span> 周三（无课）
         </div>
       </div>
@@ -40,14 +52,17 @@
     <section class="card">
       <div class="section-head">
         <div>
+          <div class="section-kicker">Course index</div>
           <h2>课程与结课纪念</h2>
-          <p class="muted">以下为本期课程列表与最后的纪念相册入口。</p>
+          <p class="muted" id="scheduleListText">以下为所选学期课程列表与纪念相册入口。</p>
         </div>
         <div class="toolbar">
-          <input id="searchLesson" class="input" placeholder="搜索：周次 / 日期 / 老师 / 标题…" />
+          <label class="sr-only" for="searchLesson">搜索课程</label>
+          <input id="searchLesson" class="input" type="search" placeholder="搜索：周次 / 日期 / 老师 / 标题…" />
           <a class="btn btn-ghost" href="downloads.html">去资料下载页</a>
         </div>
       </div>
+      <div id="lessonSearchStatus" class="search-status" role="status" aria-live="polite"></div>
 
       <div id="lessonList" class="lesson-list"></div>
     </section>
@@ -55,6 +70,7 @@
   </main>
 
   <script defer src="assets/js/data.js"></script>
-  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/js/data-semester-2.js?v=20260901-reschedule"></script>
+  <script defer src="assets/js/main.js?v=20260901-light2"></script>
 </body>
 </html>

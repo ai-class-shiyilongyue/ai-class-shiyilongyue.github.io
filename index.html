@@ -3,8 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>课程主页｜GitHub Pages</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta name="description" content="北京十一学校·龙樾实验中学与中国科学院计算技术研究所共同开展的计算思维与人工智能课程。" />
+  <meta property="og:site_name" content="计算思维与人工智能课程" />
+  <meta property="og:title" content="计算思维与人工智能｜第二学期 · 2026 秋季" />
+  <meta property="og:description" content="从计算思维出发，在动手实践中理解并创造人工智能。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://ai-class-shiyilongyue.github.io/assets/img/og-2026-fall-light.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="628" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="计算思维与人工智能｜第二学期 · 2026 秋季" />
+  <meta name="twitter:description" content="从计算思维出发，在动手实践中理解并创造人工智能。" />
+  <meta name="twitter:image" content="https://ai-class-shiyilongyue.github.io/assets/img/og-2026-fall-light.png" />
+  <title>计算思维与人工智能｜课程主页</title>
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260901" />
+  <link rel="stylesheet" href="assets/css/premium.css?v=20260901-light2" />
 </head>
 <body data-page="home" data-base="">
   <header class="topbar">
@@ -26,15 +39,12 @@
       class="hero card hero-banner"
       style="--mask-a:.1; --mask-b:.8;"
     >
-      <img class="hero-banner-img" src="assets/img/school.webp" alt="" aria-hidden="true"/>
-    
-      <div class="hero-banner-mask" aria-hidden="true"></div>
-
-      <div class="hero-flag" aria-label="Flag Banner">
-        <img class="hero-flag-img" src="assets/img/flag.webp" alt="Flag" loading="eager" decoding="async" />
+      <div class="hero-flag" aria-hidden="true">
+        <img class="hero-flag-img" src="assets/img/flag-compact.webp" alt="" width="320" height="214" decoding="async" />
       </div>
 
       <div class="hero-left">
+        <div class="hero-term" id="heroTerm"></div>
         <div class="kicker">Computational Thinking and Artificial Intelligence</div>
         <h1 id="courseTitle">计算思维与人工智能</h1>
         <p class="muted" id="courseSubtitle">
@@ -64,10 +74,19 @@
         </div>
       </div>
     </section>
-    
 
-    <section class="grid-2">
-      <section class="card">
+    <section class="card term-overview" aria-labelledby="termOverviewTitle">
+      <div class="term-overview-copy">
+        <div class="section-kicker">Semester archive</div>
+        <h2 id="termOverviewTitle">选择要浏览的学期</h2>
+        <p class="muted">上学期资料完整保留，本学期内容持续更新。切换后，课表、老师、资料与结课纪念会同步显示对应学期版本。</p>
+      </div>
+      <div class="term-overview-options" id="homeTermCards"></div>
+    </section>
+
+    <section class="grid-2 home-info-grid">
+      <section class="card course-summary-card">
+        <div class="section-kicker">Course narrative</div>
         <h2>课程整体简介</h2>
         <p class="muted" id="courseIntro"></p>
 
@@ -76,7 +95,8 @@
         <ul class="bullets" id="courseHighlights"></ul>
       </section>
 
-      <section class="card">
+      <section class="card partner-card">
+        <div class="section-kicker">Co-created by</div>
         <h2>北京十一学校·龙樾实验中学</h2>
         <p class="muted" id="partnerIntro"></p>
         <div class="hr"></div>
@@ -85,9 +105,15 @@
       </section>
     </section>
 
-    <section class="card">
-      <h2>本期授课老师</h2>
-      <p class="muted">点击老师卡片可进入对应老师页面。</p>
+    <section class="card faculty-section">
+      <div class="section-kicker">Faculty</div>
+      <div class="section-head">
+        <div>
+          <h2>本期授课老师</h2>
+          <p class="muted">由计算机科学与人工智能领域的研究者共同授课。</p>
+        </div>
+        <p class="muted small">点击教师卡片查看个人介绍与对应课程</p>
+      </div>
       <div class="teacher-grid" id="teacherGrid"></div>
     </section>
 
@@ -97,6 +123,7 @@
   </main>
 
   <script defer src="assets/js/data.js"></script>
-  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/js/data-semester-2.js?v=20260901-reschedule"></script>
+  <script defer src="assets/js/main.js?v=20260901-light2"></script>
 </body>
 </html>
