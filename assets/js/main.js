@@ -216,12 +216,15 @@
         { label: "时间", value: DATA.course.timeLabel || "每周三" },
         { label: "地点", value: DATA.course.location },
       ];
-      $("#courseMetaChips").innerHTML = chips.map(c => `
-        <span class="chip">
-          <span class="chip-k">${escapeHtml(c.label)}</span>
-          <span class="chip-v">${escapeHtml(c.value)}</span>
-        </span>
-      `).join("");
+      const courseMeta = $("#courseMetaChips");
+      if (courseMeta) {
+        courseMeta.innerHTML = chips.map(c => `
+          <span class="course-meta-item">
+            <span class="course-meta-label">${escapeHtml(c.label)}</span>
+            <span class="course-meta-value">${escapeHtml(c.value)}</span>
+          </span>
+        `).join("");
+      }
   
       $("#courseHighlights").innerHTML = (DATA.course.highlights || [])
         .map(x => `<li>${escapeHtml(x)}</li>`).join("");
