@@ -4,8 +4,8 @@
 // 1. 修改下方 lessons 中对应课程的 title / summary / teacherId。
 // 2. 课后把照片路径填入 gallery，把课件或网盘链接填入 materials。
 // 3. 第二学期素材请使用独立目录，避免覆盖第一学期：
-//    - 课件：assets/pdf/2026-fall/class_01.pdf
-//    - 照片：teachers/class/2026-fall/01-Bu/pic-1.webp
+//    - 第 1 课课件：assets/pdf/class_1_A.pdf
+//    - 第 1 课照片：teachers/class_A/pic-01.webp
 //
 // 第一学期数据继续完整保存在 assets/js/data.js，本文件只负责新增第二学期
 // 并根据网址中的 ?term=... 或浏览器记忆选择当前展示的数据。
@@ -66,8 +66,22 @@
         teacherId: "Bu",
         title: "从算盘到AlphaGo：计算如何变得“聪明”",
         summary: "什么是计算？人工智能的起源是什么？",
-        gallery: [],
-        materials: [],
+        gallery: [
+          "teachers/class_A/pic-01.webp", "teachers/class_A/pic-02.webp", "teachers/class_A/pic-03.webp",
+          "teachers/class_A/pic-04.webp", "teachers/class_A/pic-05.webp", "teachers/class_A/pic-06.webp",
+          "teachers/class_A/pic-07.webp", "teachers/class_A/pic-08.webp", "teachers/class_A/pic-09.webp",
+          "teachers/class_A/pic-10.webp", "teachers/class_A/pic-11.webp", "teachers/class_A/pic-12.webp",
+          "teachers/class_A/pic-13.webp", "teachers/class_A/pic-14.webp", "teachers/class_A/pic-15.webp",
+          "teachers/class_A/pic-16.webp", "teachers/class_A/pic-17.webp", "teachers/class_A/pic-18.webp",
+          "teachers/class_A/pic-19.webp", "teachers/class_A/pic-20.webp", "teachers/class_A/pic-21.webp",
+          "teachers/class_A/pic-22.webp", "teachers/class_A/pic-23.webp", "teachers/class_A/pic-24.webp",
+          "teachers/class_A/pic-25.webp", "teachers/class_A/pic-26.webp", "teachers/class_A/pic-27.webp",
+          "teachers/class_A/pic-28.webp", "teachers/class_A/pic-29.webp", "teachers/class_A/pic-30.webp",
+        ],
+        materials: [
+          { label: "PDF", url: "assets/pdf/class_1_A.pdf", note: "演示文档" },
+          { label: "授课视频/照片", url: "https://pan.baidu.com/s/5O-xfzyaLxzuCeUndseVfRg", note: "百度网盘" },
+        ],
       },
       {
         week: 2,
