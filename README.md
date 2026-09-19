@@ -21,8 +21,8 @@
   - `gallery`：课堂照片列表
   - `materials`：课件、视频或网盘资料列表
 - 第二学期资料请使用独立目录，避免覆盖第一学期：
-  - 第 1 课课件：`assets/pdf/class_1_A.pdf`
-  - 第 1 课照片：`teachers/class_A/pic-01.webp`
+  - 第 N 课课件：`assets/pdf/class_N_A.pdf`
+  - 第 N 课照片：`teachers/class_A/{课次教师}/pic-01.webp`（如第 2 课使用 `2Sun`）
 - 网址会使用 `?term=2026-spring` 或 `?term=2026-fall` 记录当前学期，浏览器也会记住上次选择。
 - 项目中尚未记录精确的上课起止钟点，因此当前显示“每周三下午”。确认具体时间后，只需修改 `data-semester-2.js` 中的 `timeLabel`。
 - 页面视觉统一在 `assets/css/premium.css` 中调整；基础组件与功能样式继续保留在 `assets/css/styles.css`，便于后续只改配色、留白和版式而不影响课程功能。

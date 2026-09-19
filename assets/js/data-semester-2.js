@@ -4,8 +4,8 @@
 // 1. 修改下方 lessons 中对应课程的 title / summary / teacherId。
 // 2. 课后把照片路径填入 gallery，把课件或网盘链接填入 materials。
 // 3. 第二学期素材请使用独立目录，避免覆盖第一学期：
-//    - 第 1 课课件：assets/pdf/class_1_A.pdf
-//    - 第 1 课照片：teachers/class_A/pic-01.webp
+//    - 第 N 课课件：assets/pdf/class_N_A.pdf
+//    - 第 N 课照片：teachers/class_A/{课次教师}/pic-01.webp
 //
 // 第一学期数据继续完整保存在 assets/js/data.js，本文件只负责新增第二学期
 // 并根据网址中的 ?term=... 或浏览器记忆选择当前展示的数据。
@@ -57,7 +57,7 @@
     teachers: firstSemesterSource.teachers,
 
     // 停课日期：2026-09-30、2026-11-04、2026-11-11、2026-11-18。
-    // 课程课次保持不变，并按原顺序顺延到其后的可用周三。
+    // 调课安排：原定 2026-10-07 的第 5 课调整至 2026-10-10。
     lessons: [
       {
         week: 1,
@@ -67,16 +67,16 @@
         title: "从算盘到AlphaGo：计算如何变得“聪明”",
         summary: "什么是计算？人工智能的起源是什么？",
         gallery: [
-          "teachers/class_A/pic-01.webp", "teachers/class_A/pic-02.webp", "teachers/class_A/pic-03.webp",
-          "teachers/class_A/pic-04.webp", "teachers/class_A/pic-05.webp", "teachers/class_A/pic-06.webp",
-          "teachers/class_A/pic-07.webp", "teachers/class_A/pic-08.webp", "teachers/class_A/pic-09.webp",
-          "teachers/class_A/pic-10.webp", "teachers/class_A/pic-11.webp", "teachers/class_A/pic-12.webp",
-          "teachers/class_A/pic-13.webp", "teachers/class_A/pic-14.webp", "teachers/class_A/pic-15.webp",
-          "teachers/class_A/pic-16.webp", "teachers/class_A/pic-17.webp", "teachers/class_A/pic-18.webp",
-          "teachers/class_A/pic-19.webp", "teachers/class_A/pic-20.webp", "teachers/class_A/pic-21.webp",
-          "teachers/class_A/pic-22.webp", "teachers/class_A/pic-23.webp", "teachers/class_A/pic-24.webp",
-          "teachers/class_A/pic-25.webp", "teachers/class_A/pic-26.webp", "teachers/class_A/pic-27.webp",
-          "teachers/class_A/pic-28.webp", "teachers/class_A/pic-29.webp", "teachers/class_A/pic-30.webp",
+          "teachers/class_A/1Bu/pic-01.webp", "teachers/class_A/1Bu/pic-02.webp", "teachers/class_A/1Bu/pic-03.webp",
+          "teachers/class_A/1Bu/pic-04.webp", "teachers/class_A/1Bu/pic-05.webp", "teachers/class_A/1Bu/pic-06.webp",
+          "teachers/class_A/1Bu/pic-07.webp", "teachers/class_A/1Bu/pic-08.webp", "teachers/class_A/1Bu/pic-09.webp",
+          "teachers/class_A/1Bu/pic-10.webp", "teachers/class_A/1Bu/pic-11.webp", "teachers/class_A/1Bu/pic-12.webp",
+          "teachers/class_A/1Bu/pic-13.webp", "teachers/class_A/1Bu/pic-14.webp", "teachers/class_A/1Bu/pic-15.webp",
+          "teachers/class_A/1Bu/pic-16.webp", "teachers/class_A/1Bu/pic-17.webp", "teachers/class_A/1Bu/pic-18.webp",
+          "teachers/class_A/1Bu/pic-19.webp", "teachers/class_A/1Bu/pic-20.webp", "teachers/class_A/1Bu/pic-21.webp",
+          "teachers/class_A/1Bu/pic-22.webp", "teachers/class_A/1Bu/pic-23.webp", "teachers/class_A/1Bu/pic-24.webp",
+          "teachers/class_A/1Bu/pic-25.webp", "teachers/class_A/1Bu/pic-26.webp", "teachers/class_A/1Bu/pic-27.webp",
+          "teachers/class_A/1Bu/pic-28.webp", "teachers/class_A/1Bu/pic-29.webp", "teachers/class_A/1Bu/pic-30.webp",
         ],
         materials: [
           { label: "PDF", url: "assets/pdf/class_1_A.pdf", note: "演示文档" },
@@ -88,20 +88,39 @@
         lessonId: "s2-02",
         date: "2026-09-09",
         teacherId: "Sun",
-        title: "AI智能体初探：走进会思考的智能助手",
-        summary: "认识 AI agent，解锁智能小助手的秘密",
-        gallery: [],
-        materials: [],
+        title: "AI 创造力课堂 两节课零基础做出你的第一个 AI 作品",
+        summary: "认识 AI Agent 与 Trae 的核心模式；通过个人简介网页和 2048 游戏完成首次 AI 编程实践。",
+        gallery: [
+          "teachers/class_A/2Sun/pic-01.webp", "teachers/class_A/2Sun/pic-02.webp", "teachers/class_A/2Sun/pic-03.webp",
+          "teachers/class_A/2Sun/pic-04.webp", "teachers/class_A/2Sun/pic-05.webp", "teachers/class_A/2Sun/pic-06.webp",
+          "teachers/class_A/2Sun/pic-07.webp", "teachers/class_A/2Sun/pic-08.webp", "teachers/class_A/2Sun/pic-09.webp",
+          "teachers/class_A/2Sun/pic-10.webp", "teachers/class_A/2Sun/pic-11.webp", "teachers/class_A/2Sun/pic-12.webp",
+          "teachers/class_A/2Sun/pic-13.webp", "teachers/class_A/2Sun/pic-14.webp", "teachers/class_A/2Sun/pic-15.webp",
+          "teachers/class_A/2Sun/pic-16.webp",
+        ],
+        materials: [
+          { label: "PDF", url: "assets/pdf/class_2_A.pdf", note: "演示文档" },
+          { label: "授课视频/照片", url: "https://pan.baidu.com/s/5O-xfzyaLxzuCeUndseVfRg", note: "百度网盘" },
+        ],
       },
       {
         week: 3,
         lessonId: "s2-03",
         date: "2026-09-16",
         teacherId: "Sun",
-        title: "AI智能体实践：动手搭建AI小助手",
-        summary: "从零实现专属智能Agent",
-        gallery: [],
-        materials: [],
+        title: "Trae Code 进阶之旅，让 AI 成为你的“超级程序员”",
+        summary: "掌握 Chat、Agent、SOLO/Plan 模式，了解 MCP、SQLite 与 Rules，并完成飞花令网页项目。",
+        gallery: [
+          "teachers/class_A/3Sun/pic-01.webp", "teachers/class_A/3Sun/pic-02.webp", "teachers/class_A/3Sun/pic-03.webp",
+          "teachers/class_A/3Sun/pic-04.webp", "teachers/class_A/3Sun/pic-05.webp", "teachers/class_A/3Sun/pic-06.webp",
+          "teachers/class_A/3Sun/pic-07.webp", "teachers/class_A/3Sun/pic-08.webp", "teachers/class_A/3Sun/pic-09.webp",
+          "teachers/class_A/3Sun/pic-10.webp", "teachers/class_A/3Sun/pic-11.webp", "teachers/class_A/3Sun/pic-12.webp",
+          "teachers/class_A/3Sun/pic-13.webp", "teachers/class_A/3Sun/pic-14.webp", "teachers/class_A/3Sun/pic-15.webp",
+        ],
+        materials: [
+          { label: "PDF", url: "assets/pdf/class_3_A.pdf", note: "演示文档" },
+          { label: "授课视频/照片", url: "https://pan.baidu.com/s/5O-xfzyaLxzuCeUndseVfRg", note: "百度网盘" },
+        ],
       },
       {
         week: 4,
@@ -116,7 +135,7 @@
       {
         week: 5,
         lessonId: "s2-05",
-        date: "2026-10-07",
+        date: "2026-10-10",
         teacherId: "Huang",
         title: "Agent编程：从命令到协作",
         summary: "什么是计算？如何用机械实现计算？如何用与非门、二极管实现计算？",
